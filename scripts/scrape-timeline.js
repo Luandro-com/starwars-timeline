@@ -94,7 +94,7 @@ const eras = [
     image: 'https://lumiere-a.akamaihd.net/v1/images/era9_off_99bd88a1.png?region=0,0,1000,1000',
     index: 9,
     media: [],
-  }
+  },
 ];
 
 // Function to parse year string to a numeric value
