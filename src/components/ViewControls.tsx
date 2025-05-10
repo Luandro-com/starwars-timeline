@@ -15,7 +15,7 @@ const ViewControls: React.FC<ViewControlsProps> = ({ viewMode, onViewModeChange 
     <div className={styles.viewControls}>
       <div className={styles.viewControlsInner}>
         <span className={styles.viewControlsLabel}>{t('controls.view')}:</span>
-        <button
+        {/* <button
           className={`${styles.viewControlButton} ${viewMode === 'expanded' ? styles.active : ''}`}
           onClick={() => onViewModeChange('expanded')}
           aria-label={t('controls.expanded')}
@@ -27,7 +27,7 @@ const ViewControls: React.FC<ViewControlsProps> = ({ viewMode, onViewModeChange 
             <line x1="9" y1="21" x2="9" y2="9"></line>
           </svg>
           <span>{t('controls.expanded')}</span>
-        </button>
+        </button> */}
         <button
           className={`${styles.viewControlButton} ${viewMode === 'compact' ? styles.active : ''}`}
           onClick={() => onViewModeChange('compact')}

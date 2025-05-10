@@ -16,7 +16,7 @@ const Timeline = () => {
   const [activeEra, setActiveEra] = useState<Era | null>(null);
   const [showDetailedMedia, setShowDetailedMedia] = useState<boolean>(false);
   const [timelineData, setTimelineData] = useState<TimelineData>(fullTimelineData);
-  const [viewMode, setViewMode] = useState<ViewMode>('expanded');
+  const [viewMode, setViewMode] = useState<ViewMode>('eras-only');
   const mainRef = useRef<HTMLElement>(null);
 
   // Filter out eras with negative indices (pre-republic) and indices > 8 (legacy era)
