@@ -1,18 +1,25 @@
 import { useRef, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Draggable } from 'gsap/Draggable';
+import { TimelineEra } from '../types';
 import styles from '../styles/Timeline.module.scss';
 
 // Register GSAP plugins
 gsap.registerPlugin(ScrollTrigger, Draggable);
 
-const Navigation = ({ timelineData }) => {
-  const trackRef = useRef(null);
-  const navLinksRef = useRef([]);
-  const stRef = useRef(null);
-  const tlRef = useRef(null);
-  const draggableInstanceRef = useRef(null);
+interface NavigationProps {
+  timelineData: TimelineEra[];
+}
+
+const Navigation: React.FC<NavigationProps> = ({ timelineData }) => {
+  const { t } = useTranslation();
+  const trackRef = useRef<HTMLDivElement>(null);
+  const navLinksRef = useRef<HTMLAnchorElement[]>([]);
+  const stRef = useRef<ScrollTrigger | null>(null);
+  const tlRef = useRef<gsap.core.Timeline | null>(null);
+  const draggableInstanceRef = useRef<Draggable | null>(null);
 
   useEffect(() => {
     const track = trackRef.current;
@@ -116,7 +123,7 @@ const Navigation = ({ timelineData }) => {
                 ref={el => (navLinksRef.current[index] = el)}
                 data-link
               >
-                <span>{item.year}</span>
+                <span>{t(`timeline.${item.id}.year`, item.year)}</span>
               </a>
             </li>
           ))}

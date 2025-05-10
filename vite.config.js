@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   base: '/starwars-timeline/', // Replace with your repository name
+  resolve: {
+    extensions: ['.js', '.jsx', '.ts', '.tsx', '.json']
+  }
 });

@@ -135,7 +135,7 @@ function parseYear(yearStr) {
   return {
     value: numericPart,
     era: era,
-    original: yearStr // Keep the original string for reference
+    original: yearStr, // Keep the original string for reference
   };
 }
 
@@ -256,7 +256,9 @@ async function scrapeTimeline() {
       // If no year found, use the last valid year
       if (!year && lastValidYear) {
         year = { ...lastValidYear, uncertain: true };
-        console.log(`Using last valid year ${lastValidYear.value} ${lastValidYear.era} for item without year`);
+        console.log(
+          `Using last valid year ${lastValidYear.value} ${lastValidYear.era} for item without year`
+        );
       } else if (year) {
         // Update the last valid year
         lastValidYear = year;
@@ -288,11 +290,13 @@ async function scrapeTimeline() {
         type: mediaType,
         link: titleLink ? `https://starwars.fandom.com${titleLink}` : '',
         releaseDate: releaseDateText,
-        parsedYear: year ? {
-          value: year.value,
-          era: year.era,
-          uncertain: year.uncertain || false
-        } : null
+        parsedYear: year
+          ? {
+              value: year.value,
+              era: year.era,
+              uncertain: year.uncertain || false,
+            }
+          : null,
       };
 
       // Find the appropriate era for this media item
