@@ -15,77 +15,94 @@ const URL = 'https://starwars.fandom.com/wiki/Timeline_of_canon_media';
 // Define the eras from the existing timeline.json
 const eras = [
   {
-    id: "dawn_of_the_jedi",
-    yearRange: { start: 25000, end: 5000, era: "BBY" },
-    title: "Dawn of the Jedi",
-    image: "https://lumiere-a.akamaihd.net/v1/images/era1_off_7f296355.png?region=0,0,1000,1000",
+    id: 'pre_republic',
+    yearRange: { start: 100000, end: 25000, era: 'BBY' },
+    title: 'Pre-Republic Era',
+    image: 'https://lumiere-a.akamaihd.net/v1/images/era1_off_7f296355.png?region=0,0,1000,1000',
+    index: -1,
+    media: [],
+  },
+  {
+    id: 'dawn_of_the_jedi',
+    yearRange: { start: 25000, end: 5000, era: 'BBY' },
+    title: 'Dawn of the Jedi',
+    image: 'https://lumiere-a.akamaihd.net/v1/images/era1_off_7f296355.png?region=0,0,1000,1000',
     index: 0,
-    media: []
+    media: [],
   },
   {
-    id: "the_old_republic",
-    yearRange: { start: 5000, end: 1000, era: "BBY" },
-    title: "The Old Republic",
-    image: "https://lumiere-a.akamaihd.net/v1/images/era2_218980de.png?region=0,0,1000,1000",
+    id: 'the_old_republic',
+    yearRange: { start: 5000, end: 1000, era: 'BBY' },
+    title: 'The Old Republic',
+    image: 'https://lumiere-a.akamaihd.net/v1/images/era2_218980de.png?region=0,0,1000,1000',
     index: 1,
-    media: []
+    media: [],
   },
   {
-    id: "the_high_republic",
-    yearRange: { start: 1000, end: 100, era: "BBY" },
-    title: "The High Republic",
-    image: "https://lumiere-a.akamaihd.net/v1/images/era3_bb90bcab.png?region=0,0,1000,1000",
+    id: 'the_high_republic',
+    yearRange: { start: 1000, end: 100, era: 'BBY' },
+    title: 'The High Republic',
+    image: 'https://lumiere-a.akamaihd.net/v1/images/era3_bb90bcab.png?region=0,0,1000,1000',
     index: 2,
-    media: []
+    media: [],
   },
   {
-    id: "fall_of_the_jedi",
-    yearRange: { start: 100, end: 19, era: "BBY" },
-    title: "Fall of the Jedi",
-    image: "https://lumiere-a.akamaihd.net/v1/images/era4_9f138687.png?region=0,0,1000,1000",
+    id: 'fall_of_the_jedi',
+    yearRange: { start: 100, end: 19, era: 'BBY' },
+    title: 'Fall of the Jedi',
+    image: 'https://lumiere-a.akamaihd.net/v1/images/era4_9f138687.png?region=0,0,1000,1000',
     index: 3,
-    media: []
+    media: [],
   },
   {
-    id: "reign_of_the_empire",
-    yearRange: { start: 19, end: 5, era: "BBY" },
-    title: "Reign of the Empire",
-    image: "https://lumiere-a.akamaihd.net/v1/images/era5_67cf4464.png?region=0,0,1000,1000",
+    id: 'reign_of_the_empire',
+    yearRange: { start: 19, end: 5, era: 'BBY' },
+    title: 'Reign of the Empire',
+    image: 'https://lumiere-a.akamaihd.net/v1/images/era5_67cf4464.png?region=0,0,1000,1000',
     index: 4,
-    media: []
+    media: [],
   },
   {
-    id: "age_of_rebellion",
-    yearRange: { start: 5, end: 0, era: "BBY" },
-    title: "Age of Rebellion",
-    image: "https://lumiere-a.akamaihd.net/v1/images/era6_abd16787.png?region=0,0,1000,1000",
+    id: 'age_of_rebellion',
+    yearRange: { start: 5, end: 0, era: 'BBY' },
+    title: 'Age of Rebellion',
+    image: 'https://lumiere-a.akamaihd.net/v1/images/era6_abd16787.png?region=0,0,1000,1000',
     index: 5,
-    media: []
+    media: [],
   },
   {
-    id: "the_new_republic",
-    yearRange: { start: 0, end: 34, era: "ABY" },
-    title: "The New Republic",
-    image: "https://lumiere-a.akamaihd.net/v1/images/era7_97f8dddf.png?region=0,0,1000,1000",
+    id: 'the_new_republic',
+    yearRange: { start: 0, end: 34, era: 'ABY' },
+    title: 'The New Republic',
+    image: 'https://lumiere-a.akamaihd.net/v1/images/era7_97f8dddf.png?region=0,0,1000,1000',
     index: 6,
-    media: []
+    media: [],
   },
   {
-    id: "rise_of_the_first_order",
-    yearRange: { start: 34, end: 35, era: "ABY" },
-    title: "Rise of the First Order",
-    image: "https://lumiere-a.akamaihd.net/v1/images/era8_f83e131b_2508094e.png?region=0,0,1000,1000",
+    id: 'rise_of_the_first_order',
+    yearRange: { start: 34, end: 35, era: 'ABY' },
+    title: 'Rise of the First Order',
+    image:
+      'https://lumiere-a.akamaihd.net/v1/images/era8_f83e131b_2508094e.png?region=0,0,1000,1000',
     index: 7,
-    media: []
+    media: [],
   },
   {
-    id: "new_jedi_order",
-    yearRange: { start: 35, end: 100, era: "ABY" },
-    title: "New Jedi Order",
-    image: "https://lumiere-a.akamaihd.net/v1/images/era9_off_99bd88a1.png?region=0,0,1000,1000",
+    id: 'new_jedi_order',
+    yearRange: { start: 35, end: 100, era: 'ABY' },
+    title: 'New Jedi Order',
+    image: 'https://lumiere-a.akamaihd.net/v1/images/era9_off_99bd88a1.png?region=0,0,1000,1000',
     index: 8,
-    media: []
-  }
+    media: [],
+  },
+  {
+    id: 'legacy_era',
+    yearRange: { start: 100, end: 1000, era: 'ABY' },
+    title: 'Legacy Era',
+    image: 'https://lumiere-a.akamaihd.net/v1/images/era9_off_99bd88a1.png?region=0,0,1000,1000',
+    index: 9,
+    media: [],
+  },
 ];
 
 // Function to parse year string to a numeric value
@@ -95,23 +112,30 @@ function parseYear(yearStr) {
   // Clean up the year string
   yearStr = yearStr.trim();
 
-  // Check if it's a range (e.g., "34-35 ABY")
-  if (yearStr.includes('-')) {
-    // For ranges, we'll just take the first year
-    yearStr = yearStr.split('-')[0].trim();
+  // Extract numbers from the string using regex
+  const numberMatch = yearStr.match(/(\d[\d,]*)/);
+  const bbyMatch = yearStr.match(/BBY/i);
+  const abyMatch = yearStr.match(/ABY/i);
+
+  // If no numbers found, return null
+  if (!numberMatch) return null;
+
+  // Parse the numeric part
+  const numericPart = parseInt(numberMatch[0].replace(/,/g, ''), 10);
+
+  // Determine era (BBY or ABY)
+  let era = 'BBY'; // Default to BBY
+  if (abyMatch) {
+    era = 'ABY';
+  } else if (bbyMatch) {
+    era = 'BBY';
   }
-
-  // Extract the numeric part and the era (BBY or ABY)
-  const match = yearStr.match(/^([\d,]+)\s*(BBY|ABY)?$/i);
-  if (!match) return null;
-
-  const numericPart = parseInt(match[1].replace(/,/g, ''), 10);
-  const era = (match[2] || '').toUpperCase();
 
   // Return a standardized object
   return {
     value: numericPart,
-    era: era || 'BBY' // Default to BBY if not specified
+    era: era,
+    original: yearStr // Keep the original string for reference
   };
 }
 
@@ -119,6 +143,7 @@ function parseYear(yearStr) {
 function findEraForMedia(year) {
   if (!year) return null;
 
+  // First try to find an exact match
   for (const era of eras) {
     const { start, end, era: eraType } = era.yearRange;
 
@@ -135,22 +160,34 @@ function findEraForMedia(year) {
     }
   }
 
-  return null;
+  // If no exact match, find the closest era
+  // For BBY dates before the earliest era
+  if (year.era === 'BBY' && year.value > eras[0].yearRange.start) {
+    return eras[0]; // Pre-Republic Era
+  }
+
+  // For ABY dates after the latest era
+  if (year.era === 'ABY' && year.value >= eras[eras.length - 1].yearRange.start) {
+    return eras[eras.length - 1]; // Legacy Era
+  }
+
+  // Default to the middle era if all else fails
+  return eras[4]; // Reign of the Empire as a fallback
 }
 
 // Function to determine media type from the class
 function getMediaType(typeClass) {
   const typeMap = {
-    'film': 'Film',
-    'tv': 'TV Series',
-    'novel': 'Novel',
-    'ya': 'Young Adult Novel',
-    'junior': 'Junior Novel',
-    'comic': 'Comic',
-    'game': 'Video Game',
-    'vr': 'VR Experience',
-    'audio': 'Audio Drama',
-    'short': 'Short Story'
+    film: 'Film',
+    tv: 'TV Series',
+    novel: 'Novel',
+    ya: 'Young Adult Novel',
+    junior: 'Junior Novel',
+    comic: 'Comic',
+    game: 'Video Game',
+    vr: 'VR Experience',
+    audio: 'Audio Drama',
+    short: 'Short Story',
   };
 
   return typeMap[typeClass] || 'Other';
@@ -173,38 +210,89 @@ async function scrapeTimeline() {
 
     console.log('Parsing timeline data...');
 
+    // Keep track of the last valid year for items without a year
+    let lastValidYear = null;
+
     // Process each row in the table
     table.find('tbody tr').each((index, row) => {
-      // Skip header rows
-      if ($(row).find('th').length > 0) return;
+      // Skip header rows but log them
+      if ($(row).find('th').length > 0) {
+        console.log(`Skipping header row: ${$(row).text().trim()}`);
+        return;
+      }
 
       const columns = $(row).find('td');
-      if (columns.length < 3) return; // Skip rows with insufficient data
 
-      // Extract year
-      const yearText = $(columns[0]).text().trim();
-      const year = parseYear(yearText);
+      // Handle rows with fewer columns
+      let yearText = '';
+      let typeClass = '';
+      let titleElement = null;
+      let releaseDateText = '';
 
-      // Extract media type
-      const typeClass = $(columns[1]).attr('class') || '';
-      const mediaType = getMediaType(typeClass);
+      // Extract data based on available columns
+      if (columns.length >= 1) {
+        yearText = $(columns[0]).text().trim();
+      }
+
+      if (columns.length >= 2) {
+        typeClass = $(columns[1]).attr('class') || '';
+      }
+
+      if (columns.length >= 3) {
+        titleElement = $(columns[2]);
+      } else if (columns.length >= 1) {
+        // If there's only one column, assume it's the title
+        titleElement = $(columns[0]);
+        yearText = ''; // Clear year text as it's probably not a year
+      }
+
+      if (columns.length >= 4) {
+        releaseDateText = $(columns[3]).text().trim();
+      }
+
+      // Parse the year
+      let year = parseYear(yearText);
+
+      // If no year found, use the last valid year
+      if (!year && lastValidYear) {
+        year = { ...lastValidYear, uncertain: true };
+        console.log(`Using last valid year ${lastValidYear.value} ${lastValidYear.era} for item without year`);
+      } else if (year) {
+        // Update the last valid year
+        lastValidYear = year;
+      }
 
       // Extract title
-      const titleElement = $(columns[2]);
-      const titleText = titleElement.text().trim();
-      const titleLink = titleElement.find('a').first().attr('href') || '';
+      let titleText = '';
+      let titleLink = '';
 
-      // Extract release date
-      const releaseDateText = $(columns[3]).text().trim();
+      if (titleElement) {
+        titleText = titleElement.text().trim();
+        titleLink = titleElement.find('a').first().attr('href') || '';
+      }
 
-      // Create media item
+      // Skip rows without a title
+      if (!titleText) {
+        console.log(`Skipping row without title: ${$(row).text().trim()}`);
+        return;
+      }
+
+      // Extract media type
+      const mediaType = getMediaType(typeClass);
+
+      // Create media item with parsed year information
       const mediaItem = {
         id: `media_${index}`,
         year: yearText,
         title: titleText,
         type: mediaType,
         link: titleLink ? `https://starwars.fandom.com${titleLink}` : '',
-        releaseDate: releaseDateText
+        releaseDate: releaseDateText,
+        parsedYear: year ? {
+          value: year.value,
+          era: year.era,
+          uncertain: year.uncertain || false
+        } : null
       };
 
       // Find the appropriate era for this media item
@@ -212,42 +300,52 @@ async function scrapeTimeline() {
       if (era) {
         era.media.push(mediaItem);
       } else {
-        console.log(`Could not find era for: ${titleText} (${yearText})`);
+        // If no era found, add to a default era based on the year
+        if (year && year.era === 'BBY') {
+          eras[0].media.push(mediaItem); // Add to Pre-Republic Era
+          console.log(`Added to Pre-Republic Era: ${titleText} (${yearText})`);
+        } else if (year && year.era === 'ABY') {
+          eras[eras.length - 1].media.push(mediaItem); // Add to Legacy Era
+          console.log(`Added to Legacy Era: ${titleText} (${yearText})`);
+        } else {
+          // If no year information at all, add to Reign of the Empire as a default
+          eras[4].media.push(mediaItem);
+          console.log(`Added to default era (Reign of the Empire): ${titleText}`);
+        }
       }
     });
+
+    // Filter out the extra eras for the timeline_eras.json file
+    const displayEras = eras.filter(era => era.index >= 0 && era.index <= 8);
 
     // Save the original timeline.json as timeline_eras.json
     const timelineErasPath = path.join(__dirname, '..', 'src', 'data', 'timeline_eras.json');
     const originalTimeline = {
-      items: eras.map(({ id, yearRange, title, image, index }) => ({
+      items: displayEras.map(({ id, yearRange, title, image, index }) => ({
         id,
         year: `${yearRange.start.toLocaleString()} – ${yearRange.end.toLocaleString()} ${yearRange.era}`,
         title,
         image,
-        index
-      }))
+        index,
+      })),
     };
 
-    fs.writeFileSync(
-      timelineErasPath,
-      JSON.stringify(originalTimeline, null, 2),
-      'utf8'
-    );
+    fs.writeFileSync(timelineErasPath, JSON.stringify(originalTimeline, null, 2), 'utf8');
     console.log(`Saved timeline eras to ${timelineErasPath}`);
 
     // Save the full timeline with media items
     const fullTimelinePath = path.join(__dirname, '..', 'src', 'data', 'full_timeline.json');
-    fs.writeFileSync(
-      fullTimelinePath,
-      JSON.stringify({ eras }, null, 2),
-      'utf8'
-    );
+    fs.writeFileSync(fullTimelinePath, JSON.stringify({ eras }, null, 2), 'utf8');
     console.log(`Saved full timeline to ${fullTimelinePath}`);
 
-    // Count media items
+    // Count media items and provide statistics
     const totalMedia = eras.reduce((sum, era) => sum + era.media.length, 0);
     console.log(`Successfully scraped ${totalMedia} media items across ${eras.length} eras`);
 
+    // Log media count per era
+    eras.forEach(era => {
+      console.log(`${era.title}: ${era.media.length} items`);
+    });
   } catch (error) {
     console.error('Error scraping timeline:', error);
     process.exit(1);
