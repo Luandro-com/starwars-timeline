@@ -1,5 +1,10 @@
-const fs = require('fs');
-const path = require('path');
+import * as fs from 'fs';
+import * as path from 'path';
+import { fileURLToPath } from 'url';
+
+// Get the directory name
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Define types for our data structures
 interface TimelineItem {
@@ -81,7 +86,7 @@ function generateTranslationFile(
 
 // Define paths relative to project root
 const projectRoot = path.resolve(__dirname, '..');
-const sourceFile = path.join(projectRoot, 'src/data/timeline.json');
+const sourceFile = path.join(projectRoot, 'src/data/timeline_eras.json');
 const outputFile = path.join(projectRoot, 'src/i18n/locales/en.json');
 
 // Generate the translation file with title and year fields

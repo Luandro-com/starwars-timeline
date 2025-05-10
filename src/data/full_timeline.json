@@ -1,0 +1,684 @@
+{
+  "eras": [
+    {
+      "id": "dawn_of_the_jedi",
+      "yearRange": {
+        "start": 25000,
+        "end": 5000,
+        "era": "BBY"
+      },
+      "title": "Dawn of the Jedi",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/era1_off_7f296355.png?region=0,0,1000,1000",
+      "index": 0,
+      "media": []
+    },
+    {
+      "id": "the_old_republic",
+      "yearRange": {
+        "start": 5000,
+        "end": 1000,
+        "era": "BBY"
+      },
+      "title": "The Old Republic",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/era2_218980de.png?region=0,0,1000,1000",
+      "index": 1,
+      "media": []
+    },
+    {
+      "id": "the_high_republic",
+      "yearRange": {
+        "start": 1000,
+        "end": 100,
+        "era": "BBY"
+      },
+      "title": "The High Republic",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/era3_bb90bcab.png?region=0,0,1000,1000",
+      "index": 2,
+      "media": [
+        {
+          "id": "media_294",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures (2023) 4 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_(2023)_4",
+          "releaseDate": "2024-03-13"
+        },
+        {
+          "id": "media_295",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures (2023) 5 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_(2023)_5",
+          "releaseDate": "2024-04-24"
+        },
+        {
+          "id": "media_298",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures (2023) 6 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_(2023)_6",
+          "releaseDate": "2024-05-29"
+        },
+        {
+          "id": "media_299",
+          "year": "228 BBY",
+          "title": "The High Republic: Defy the Storm",
+          "type": "Novel",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic:_Defy_the_Storm",
+          "releaseDate": "2024-03-05"
+        },
+        {
+          "id": "media_300",
+          "year": "228 BBY",
+          "title": "\"Chronicles of Corellia: Heir Apparent\" — Star Wars Insider 227 †",
+          "type": "Short Story",
+          "link": "https://starwars.fandom.com/wiki/Star_Wars_Insider",
+          "releaseDate": "2024-08-27"
+        },
+        {
+          "id": "media_301",
+          "year": "228 BBY",
+          "title": "\"Chronicles of Corellia: Cracking the Mask\" — Star Wars Insider 228 †",
+          "type": "Short Story",
+          "link": "https://starwars.fandom.com/wiki/Star_Wars_Insider",
+          "releaseDate": "2024-10-29"
+        },
+        {
+          "id": "media_302",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures (2023) 7 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_(2023)_7",
+          "releaseDate": "2024-07-10"
+        },
+        {
+          "id": "media_303",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures (2023) 8 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_(2023)_8",
+          "releaseDate": "2024-08-07"
+        },
+        {
+          "id": "media_304",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures: Crash and Burn †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures:_Crash_and_Burn",
+          "releaseDate": "2024-09-04"
+        },
+        {
+          "id": "media_305",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures (2023) 9 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_(2023)_9",
+          "releaseDate": "2024-08-21"
+        },
+        {
+          "id": "media_306",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures (2023) 10 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_(2023)_10",
+          "releaseDate": "2024-09-18"
+        },
+        {
+          "id": "media_307",
+          "year": "228 BBY",
+          "title": "\"Tales from the Occlusion Zone: Survivors\" — Star Wars Insider 224",
+          "type": "Short Story",
+          "link": "https://starwars.fandom.com/wiki/Star_Wars_Insider",
+          "releaseDate": "2024-03-12"
+        },
+        {
+          "id": "media_308",
+          "year": "228 BBY",
+          "title": "\"Tales from the Occlusion Zone: Pathogen\" — Star Wars Insider 225",
+          "type": "Short Story",
+          "link": "https://starwars.fandom.com/wiki/Star_Wars_Insider",
+          "releaseDate": "2024-04-30"
+        },
+        {
+          "id": "media_309",
+          "year": "228 BBY",
+          "title": "\"Tales from the Occlusion Zone: Family Ties\" — Star Wars Insider 226",
+          "type": "Short Story",
+          "link": "https://starwars.fandom.com/wiki/Star_Wars_Insider",
+          "releaseDate": "2024-06-25"
+        },
+        {
+          "id": "media_311",
+          "year": "228 BBY",
+          "title": "The High Republic (2023) 1 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_(2023)_1",
+          "releaseDate": "2023-11-08"
+        },
+        {
+          "id": "media_312",
+          "year": "228 BBY",
+          "title": "The High Republic (2023) 2 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_(2023)_2",
+          "releaseDate": "2023-12-20"
+        },
+        {
+          "id": "media_313",
+          "year": "228 BBY",
+          "title": "The High Republic (2023) 3 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_(2023)_3",
+          "releaseDate": "2024-01-17"
+        },
+        {
+          "id": "media_314",
+          "year": "228 BBY",
+          "title": "The High Republic (2023) 4 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_(2023)_4",
+          "releaseDate": "2024-03-06"
+        },
+        {
+          "id": "media_315",
+          "year": "228 BBY",
+          "title": "The High Republic (2023) 5 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_(2023)_5",
+          "releaseDate": "2024-03-20"
+        },
+        {
+          "id": "media_316",
+          "year": "228 BBY",
+          "title": "The High Republic (2023) 6 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_(2023)_6",
+          "releaseDate": "2024-04-10"
+        },
+        {
+          "id": "media_317",
+          "year": "228 BBY",
+          "title": "The High Republic (2023) 7 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_(2023)_7",
+          "releaseDate": "2024-05-08"
+        },
+        {
+          "id": "media_318",
+          "year": "228 BBY",
+          "title": "The High Republic (2023) 8 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_(2023)_8",
+          "releaseDate": "2024-06-05"
+        },
+        {
+          "id": "media_319",
+          "year": "228 BBY",
+          "title": "The High Republic (2023) 9 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_(2023)_9",
+          "releaseDate": "2024-07-03"
+        },
+        {
+          "id": "media_320",
+          "year": "228 BBY",
+          "title": "The High Republic (2023) 10 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_(2023)_10",
+          "releaseDate": "2024-08-07"
+        },
+        {
+          "id": "media_323",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures – Echoes of Fear 1 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_%E2%80%93_Echoes_of_Fear_1",
+          "releaseDate": "2024-09-04"
+        },
+        {
+          "id": "media_324",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures – Echoes of Fear 2 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_%E2%80%93_Echoes_of_Fear_2",
+          "releaseDate": "2024-10-09"
+        },
+        {
+          "id": "media_325",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures – Echoes of Fear 3 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_%E2%80%93_Echoes_of_Fear_3",
+          "releaseDate": "2024-11-27"
+        },
+        {
+          "id": "media_326",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures – Echoes of Fear 4 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_%E2%80%93_Echoes_of_Fear_4",
+          "releaseDate": "2025-01-29"
+        },
+        {
+          "id": "media_336",
+          "year": "228 BBY",
+          "title": "\"Tales from the Occlusion Zone: The Fate of Eriadu\" — Star Wars Insider 229 †",
+          "type": "Short Story",
+          "link": "https://starwars.fandom.com/wiki/Star_Wars_Insider",
+          "releaseDate": "2024-12-10"
+        },
+        {
+          "id": "media_343",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures (2023) 11 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_(2023)_11",
+          "releaseDate": "2024-10-30"
+        },
+        {
+          "id": "media_344",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures: Dispatches from the Occlusion Zone 1 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_%E2%80%93_Dispatches_from_the_Occlusion_Zone_1",
+          "releaseDate": "2024-10-09"
+        },
+        {
+          "id": "media_345",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures: Dispatches from the Occlusion Zone 2 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_%E2%80%93_Dispatches_from_the_Occlusion_Zone_2",
+          "releaseDate": "2024-11-27"
+        },
+        {
+          "id": "media_346",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures (2023) 12 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_(2023)_12",
+          "releaseDate": "2024-11-20"
+        },
+        {
+          "id": "media_347",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures (2023) 13 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_(2023)_13",
+          "releaseDate": "2024-12-18"
+        },
+        {
+          "id": "media_348",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures: Dispatches from the Occlusion Zone 3 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_%E2%80%93_Dispatches_from_the_Occlusion_Zone_3",
+          "releaseDate": "2024-12-18"
+        },
+        {
+          "id": "media_351",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures Phase III - The Wedding Spectacular †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_Phase_III_-_The_Wedding_Spectacular",
+          "releaseDate": "2024-12-18"
+        },
+        {
+          "id": "media_352",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures (2023) 14 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_(2023)_14",
+          "releaseDate": "2025-01-29"
+        },
+        {
+          "id": "media_353",
+          "year": "228 BBY",
+          "title": "\"Tales from the Occlusion Zone: Sparks Fly\" — Star Wars Insider 230 †",
+          "type": "Short Story",
+          "link": "https://starwars.fandom.com/wiki/Star_Wars_Insider",
+          "releaseDate": "2025-02-25"
+        },
+        {
+          "id": "media_354",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures (2023) 15 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_(2023)_15",
+          "releaseDate": "2025-02-12"
+        },
+        {
+          "id": "media_355",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures Phase III - The Battle of Eriadu †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_Phase_III_-_The_Battle_of_Eriadu",
+          "releaseDate": "2025-04-30"
+        },
+        {
+          "id": "media_356",
+          "year": "228 BBY",
+          "title": "The High Republic – Fear of the Jedi 1 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_%E2%80%93_Fear_of_the_Jedi_1",
+          "releaseDate": "2025-02-19"
+        },
+        {
+          "id": "media_357",
+          "year": "228 BBY",
+          "title": "The High Republic – Fear of the Jedi 2 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_%E2%80%93_Fear_of_the_Jedi_2",
+          "releaseDate": "2025-03-26"
+        },
+        {
+          "id": "media_358",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures (2023) 16 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_(2023)_16",
+          "releaseDate": "2025-03-19"
+        },
+        {
+          "id": "media_359",
+          "year": "228 BBY",
+          "title": "The High Republic – Fear of the Jedi 3 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_%E2%80%93_Fear_of_the_Jedi_3",
+          "releaseDate": "2025-04-30"
+        },
+        {
+          "id": "media_360",
+          "year": "228 BBY",
+          "title": "The High Republic: A Valiant Vow",
+          "type": "Junior Novel",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic:_A_Valiant_Vow",
+          "releaseDate": "2025-05-06"
+        },
+        {
+          "id": "media_361",
+          "year": "228 BBY",
+          "title": "The High Republic – Fear of the Jedi 4 †",
+          "type": "Other",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_%E2%80%93_Fear_of_the_Jedi_4",
+          "releaseDate": "2025-05-21"
+        },
+        {
+          "id": "media_362",
+          "year": "228 BBY",
+          "title": "The High Republic – Fear of the Jedi 5 †",
+          "type": "Other",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_%E2%80%93_Fear_of_the_Jedi_5",
+          "releaseDate": "2025-06-04"
+        },
+        {
+          "id": "media_363",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures (2023) 17 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_(2023)_17",
+          "releaseDate": "2025-04-30"
+        },
+        {
+          "id": "media_364",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures (2023) 18 †",
+          "type": "Other",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_(2023)_18",
+          "releaseDate": "2025-05-21"
+        },
+        {
+          "id": "media_365",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures (2023) 19 †",
+          "type": "Other",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_(2023)_19",
+          "releaseDate": "2025-06-25"
+        },
+        {
+          "id": "media_366",
+          "year": "228 BBY",
+          "title": "The High Republic Adventures (2023) 20 †",
+          "type": "Other",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_Adventures_(2023)_20",
+          "releaseDate": "2025-07-16"
+        },
+        {
+          "id": "media_368",
+          "year": "228 BBY",
+          "title": "The High Republic – The Finale: The Beacon 1 †",
+          "type": "Other",
+          "link": "https://starwars.fandom.com/wiki/The_High_Republic_%E2%80%93_The_Finale:_The_Beacon_1",
+          "releaseDate": "2025-07-30"
+        }
+      ]
+    },
+    {
+      "id": "fall_of_the_jedi",
+      "yearRange": {
+        "start": 100,
+        "end": 19,
+        "era": "BBY"
+      },
+      "title": "Fall of the Jedi",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/era4_9f138687.png?region=0,0,1000,1000",
+      "index": 3,
+      "media": [
+        {
+          "id": "media_467",
+          "year": "29 BBY",
+          "title": "Padawan's Pride †",
+          "type": "Audio Drama",
+          "link": "https://starwars.fandom.com/wiki/Padawan%27s_Pride",
+          "releaseDate": "2024-09-19"
+        },
+        {
+          "id": "media_534",
+          "year": "22 BBY",
+          "title": "\"The Droid with a Heart\" — Myths & Fables †",
+          "type": "Short Story",
+          "link": "https://starwars.fandom.com/wiki/The_Droid_with_a_Heart",
+          "releaseDate": "2019-08-06"
+        }
+      ]
+    },
+    {
+      "id": "reign_of_the_empire",
+      "yearRange": {
+        "start": 19,
+        "end": 5,
+        "era": "BBY"
+      },
+      "title": "Reign of the Empire",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/era5_67cf4464.png?region=0,0,1000,1000",
+      "index": 4,
+      "media": []
+    },
+    {
+      "id": "age_of_rebellion",
+      "yearRange": {
+        "start": 5,
+        "end": 0,
+        "era": "BBY"
+      },
+      "title": "Age of Rebellion",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/era6_abd16787.png?region=0,0,1000,1000",
+      "index": 5,
+      "media": []
+    },
+    {
+      "id": "the_new_republic",
+      "yearRange": {
+        "start": 0,
+        "end": 34,
+        "era": "ABY"
+      },
+      "title": "The New Republic",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/era7_97f8dddf.png?region=0,0,1000,1000",
+      "index": 6,
+      "media": [
+        {
+          "id": "media_1959",
+          "year": "4 ABY",
+          "title": "\"We Shall Double Our Efforts\" — Tales from the Death Star †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/We_Shall_Double_Our_Efforts",
+          "releaseDate": "2023-10-17"
+        },
+        {
+          "id": "media_2040",
+          "year": "4 ABY",
+          "title": "\"One Normal Day\" — From a Certain Point of View: Return of the Jedi †",
+          "type": "Short Story",
+          "link": "https://starwars.fandom.com/wiki/One_Normal_Day",
+          "releaseDate": "2023-08-29"
+        },
+        {
+          "id": "media_2058",
+          "year": "4 ABY",
+          "title": "Star Wars Battlefront II Campaign: Mission 1: The Battle of Endor\nOccurs concurrently with Star Wars: Episode VI Return of the Jedi.",
+          "type": "Other",
+          "link": "https://starwars.fandom.com/wiki/Star_Wars_Battlefront_II",
+          "releaseDate": "2017-11-17"
+        },
+        {
+          "id": "media_2063",
+          "year": "4 ABY",
+          "title": "\"Brotherhood\" — From a Certain Point of View: Return of the Jedi †",
+          "type": "Short Story",
+          "link": "https://starwars.fandom.com/wiki/Brotherhood_(short_story)",
+          "releaseDate": "2023-08-29"
+        },
+        {
+          "id": "media_2065",
+          "year": "4 ABY",
+          "title": "\"Galactic Tales: Lost in the Woods\" — Star Wars Insider 221 †",
+          "type": "Short Story",
+          "link": "https://starwars.fandom.com/wiki/Star_Wars_Insider",
+          "releaseDate": "2023-09-26"
+        },
+        {
+          "id": "media_2066",
+          "year": "4 ABY",
+          "title": "\"The Veteran\" — From a Certain Point of View: Return of the Jedi †",
+          "type": "Short Story",
+          "link": "https://starwars.fandom.com/wiki/The_Veteran",
+          "releaseDate": "2023-08-29"
+        },
+        {
+          "id": "media_2067",
+          "year": "4 ABY",
+          "title": "Battle of Jakku — Insurgency Rising 1 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/Battle_of_Jakku_%E2%80%94_Insurgency_Rising_1",
+          "releaseDate": "2024-10-02"
+        },
+        {
+          "id": "media_2068",
+          "year": "4 ABY",
+          "title": "\"The Rising\" — Battle of Jakku — Insurgency Rising 1 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/The_Rising",
+          "releaseDate": "2024-10-02"
+        },
+        {
+          "id": "media_2069",
+          "year": "4 ABY",
+          "title": "\"The Steadfast Soldier\" — From a Certain Point of View: Return of the Jedi †",
+          "type": "Short Story",
+          "link": "https://starwars.fandom.com/wiki/The_Steadfast_Soldier",
+          "releaseDate": "2023-08-29"
+        },
+        {
+          "id": "media_2070",
+          "year": "4 ABY",
+          "title": "\"The Golden One\" — Myths & Fables †",
+          "type": "Short Story",
+          "link": "https://starwars.fandom.com/wiki/The_Golden_One",
+          "releaseDate": "2020-08-30"
+        },
+        {
+          "id": "media_2073",
+          "year": "4 ABY",
+          "title": "Star Wars Forces of Destiny — \"Traps and Tribulations\" †",
+          "type": "TV Series",
+          "link": "https://starwars.fandom.com/wiki/Star_Wars_Forces_of_Destiny",
+          "releaseDate": "2018-05-04"
+        },
+        {
+          "id": "media_2079",
+          "year": "4 ABY",
+          "title": "Battle of Jakku — Insurgency Rising 2 †",
+          "type": "Comic",
+          "link": "https://starwars.fandom.com/wiki/Battle_of_Jakku_%E2%80%94_Insurgency_Rising_2",
+          "releaseDate": "2024-10-16"
+        }
+      ]
+    },
+    {
+      "id": "rise_of_the_first_order",
+      "yearRange": {
+        "start": 34,
+        "end": 35,
+        "era": "ABY"
+      },
+      "title": "Rise of the First Order",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/era8_f83e131b_2508094e.png?region=0,0,1000,1000",
+      "index": 7,
+      "media": [
+        {
+          "id": "media_2396",
+          "year": "34 ABY",
+          "title": "Star Wars Galaxy of Adventures — \"The Force Calls to Rey\"\nWeb series adaptation of Star Wars: Episode VII The Force Awakens and Star Wars: Episode VIII The Last Jedi.",
+          "type": "TV Series",
+          "link": "https://starwars.fandom.com/wiki/Star_Wars_Galaxy_of_Adventures",
+          "releaseDate": "2020-03-13"
+        },
+        {
+          "id": "media_2397",
+          "year": "34 ABY",
+          "title": "Star Wars Galaxy of Adventures — \"An Unlikely Friendship\"\nWeb series adaptation of Star Wars: Episode VII The Force Awakens.",
+          "type": "TV Series",
+          "link": "https://starwars.fandom.com/wiki/Star_Wars_Galaxy_of_Adventures",
+          "releaseDate": "2020-04-24"
+        },
+        {
+          "id": "media_2398",
+          "year": "34 ABY",
+          "title": "Star Wars Galaxy of Adventures — \"BB-8 - A Hero Rolls Out\"\nWeb series adaptation of Star Wars: Episode VII The Force Awakens and Star Wars: Episode VIII The Last Jedi.",
+          "type": "TV Series",
+          "link": "https://starwars.fandom.com/wiki/Star_Wars_Galaxy_of_Adventures",
+          "releaseDate": "2020-03-27"
+        },
+        {
+          "id": "media_2399",
+          "year": "34 ABY",
+          "title": "Star Wars Galaxy of Adventures — \"Rey and Finn vs. Kylo Ren\"\nWeb series adaptation of Star Wars: Episode VII The Force Awakens.",
+          "type": "TV Series",
+          "link": "https://starwars.fandom.com/wiki/Star_Wars_Galaxy_of_Adventures",
+          "releaseDate": "2020-04-03"
+        },
+        {
+          "id": "media_2400",
+          "year": "34 ABY",
+          "title": "Star Wars Galaxy of Adventures — \"The First Order vs. The Resistance\"",
+          "type": "TV Series",
+          "link": "https://starwars.fandom.com/wiki/Star_Wars_Galaxy_of_Adventures",
+          "releaseDate": "2020-05-01"
+        }
+      ]
+    },
+    {
+      "id": "new_jedi_order",
+      "yearRange": {
+        "start": 35,
+        "end": 100,
+        "era": "ABY"
+      },
+      "title": "New Jedi Order",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/era9_off_99bd88a1.png?region=0,0,1000,1000",
+      "index": 8,
+      "media": []
+    }
+  ]
+}

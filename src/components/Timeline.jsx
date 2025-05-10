@@ -1,8 +1,7 @@
-
 import Navigation from './Navigation';
 import Section from './Section';
 import LanguageSwitcher from './LanguageSwitcher';
-import timelineData from '../data/timeline.json';
+import timelineData from '../data/timeline_eras.json';
 
 const Timeline = () => {
   return (

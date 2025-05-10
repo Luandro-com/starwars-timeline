@@ -1,7 +1,7 @@
 // eslint.config.js
 export default [
   {
-    ignores: ['dist', 'node_modules', 'scripts']
+    ignores: ['dist', 'node_modules', 'scripts'],
   },
   {
     files: ['**/*.{js,jsx}'],
@@ -10,22 +10,25 @@ export default [
       sourceType: 'module',
       parserOptions: {
         ecmaFeatures: {
-          jsx: true
-        }
+          jsx: true,
+        },
       },
       globals: {
         document: 'readonly',
         navigator: 'readonly',
-        window: 'readonly'
-      }
+        window: 'readonly',
+      },
     },
     rules: {
-      'no-unused-vars': ['warn', {
-        varsIgnorePattern: '^(React|App|Timeline|Navigation|Section|LanguageSwitcher)$',
-        argsIgnorePattern: '^_'
-      }],
+      'no-unused-vars': [
+        'warn',
+        {
+          varsIgnorePattern: '^(React|App|Timeline|Navigation|Section|LanguageSwitcher)$',
+          argsIgnorePattern: '^_',
+        },
+      ],
       'react/react-in-jsx-scope': 'off',
-      'react/prop-types': 'off'
-    }
-  }
+      'react/prop-types': 'off',
+    },
+  },
 ];
