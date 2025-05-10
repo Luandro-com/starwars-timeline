@@ -1,40 +1,31 @@
 {
   "timeline": {
-    "section_1": {
-      "year": "1993",
-      "title": "Pablo Honey"
+    "dawn_of_the_jedi": {
+      "title": "Dawn of the Jedi"
     },
-    "section_2": {
-      "year": "1995",
-      "title": "The Bends"
+    "the_old_republic": {
+      "title": "The Old Republic"
     },
-    "section_3": {
-      "year": "1997",
-      "title": "OK Computer"
+    "the_high_republic": {
+      "title": "The High Republic"
     },
-    "section_4": {
-      "year": "2000",
-      "title": "Kid A"
+    "fall_of_the_jedi": {
+      "title": "Fall of the Jedi"
     },
-    "section_5": {
-      "year": "2001",
-      "title": "Amnesiac"
+    "reign_of_the_empire": {
+      "title": "Reign of the Empire"
     },
-    "section_6": {
-      "year": "2003",
-      "title": "Hail to the Thief"
+    "age_of_rebellion": {
+      "title": "Age of Rebellion"
     },
-    "section_7": {
-      "year": "2007",
-      "title": "In Rainbows"
+    "the_new_republic": {
+      "title": "The New Republic"
     },
-    "section_8": {
-      "year": "2011",
-      "title": "The King of Limbs"
+    "rise_of_the_first_order": {
+      "title": "Rise of the First Order"
     },
-    "section_9": {
-      "year": "2016",
-      "title": "A Moon Shaped Pool"
+    "new_jedi_order": {
+      "title": "New Jedi Order"
     }
   }
 }

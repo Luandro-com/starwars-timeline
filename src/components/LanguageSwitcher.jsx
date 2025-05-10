@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 const LanguageSwitcher = () => {
@@ -44,6 +43,19 @@ const LanguageSwitcher = () => {
         }}
       >
         ES
+      </button>
+      <button
+        onClick={() => changeLanguage('fr')}
+        style={{
+          background: i18n.language === 'fr' ? 'var(--activeColor)' : 'transparent',
+          color: i18n.language === 'fr' ? 'var(--navBgColor)' : 'var(--activeColor)',
+          border: '1px solid var(--activeColor)',
+          padding: '5px 10px',
+          cursor: 'pointer',
+          borderRadius: '4px',
+        }}
+      >
+        FR
       </button>
     </div>
   );

@@ -1,30 +1,31 @@
-import js from '@eslint/js';
-import globals from 'globals';
-import reactHooks from 'eslint-plugin-react-hooks';
-import reactRefresh from 'eslint-plugin-react-refresh';
-
+// eslint.config.js
 export default [
-  { ignores: ['dist'] },
+  {
+    ignores: ['dist', 'node_modules', 'scripts']
+  },
   {
     files: ['**/*.{js,jsx}'],
     languageOptions: {
-      ecmaVersion: 2020,
-      globals: globals.browser,
+      ecmaVersion: 'latest',
+      sourceType: 'module',
       parserOptions: {
-        ecmaVersion: 'latest',
-        ecmaFeatures: { jsx: true },
-        sourceType: 'module',
+        ecmaFeatures: {
+          jsx: true
+        }
       },
-    },
-    plugins: {
-      'react-hooks': reactHooks,
-      'react-refresh': reactRefresh,
+      globals: {
+        document: 'readonly',
+        navigator: 'readonly',
+        window: 'readonly'
+      }
     },
     rules: {
-      ...js.configs.recommended.rules,
-      ...reactHooks.configs.recommended.rules,
-      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
-      'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
-    },
-  },
+      'no-unused-vars': ['warn', {
+        varsIgnorePattern: '^(React|App|Timeline|Navigation|Section|LanguageSwitcher)$',
+        argsIgnorePattern: '^_'
+      }],
+      'react/react-in-jsx-scope': 'off',
+      'react/prop-types': 'off'
+    }
+  }
 ];

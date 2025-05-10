@@ -1,0 +1,31 @@
+{
+  "timeline": {
+    "dawn_of_the_jedi": {
+      "title": "Aube des Jedi"
+    },
+    "the_old_republic": {
+      "title": "L'Ancienne République"
+    },
+    "the_high_republic": {
+      "title": "La Haute République"
+    },
+    "fall_of_the_jedi": {
+      "title": "Chute des Jedi"
+    },
+    "reign_of_the_empire": {
+      "title": "Règne de l'Empire"
+    },
+    "age_of_rebellion": {
+      "title": "Ère de la Rébellion"
+    },
+    "the_new_republic": {
+      "title": "La Nouvelle République"
+    },
+    "rise_of_the_first_order": {
+      "title": "Montée de la Première Ordre"
+    },
+    "new_jedi_order": {
+      "title": "Nouvel Ordre Jedi"
+    }
+  }
+}

@@ -1,66 +1,66 @@
 {
   "items": [
     {
-      "id": "section_1",
-      "year": "1993",
-      "title": "Pablo Honey",
-      "image": "https://assets.codepen.io/85648/radiohead_pablo-honey.jpg",
+      "id": "dawn_of_the_jedi",
+      "year": "25,000 BBY",
+      "title": "Dawn of the Jedi",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/era1_off_7f296355.png?region=0,0,1000,1000",
       "index": 0
     },
     {
-      "id": "section_2",
-      "year": "1995",
-      "title": "The Bends",
-      "image": "https://assets.codepen.io/85648/radiohead_the-bends.webp",
+      "id": "the_old_republic",
+      "year": "25,000 – 1,000 BBY",
+      "title": "The Old Republic",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/era2_218980de.png?region=0,0,1000,1000",
       "index": 1
     },
     {
-      "id": "section_3",
-      "year": "1997",
-      "title": "OK Computer",
-      "image": "https://assets.codepen.io/85648/radiohead_ok-computer.webp",
+      "id": "the_high_republic",
+      "year": "500 BBY – 100 BBY",
+      "title": "The High Republic",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/era3_bb90bcab.png?region=0,0,1000,1000",
       "index": 2
     },
     {
-      "id": "section_4",
-      "year": "2000",
-      "title": "Kid A",
-      "image": "https://assets.codepen.io/85648/radiohead_kid-a.webp",
+      "id": "fall_of_the_jedi",
+      "year": "100 BBY – 19 BBY",
+      "title": "Fall of the Jedi",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/era4_9f138687.png?region=0,0,1000,1000",
       "index": 3
     },
     {
-      "id": "section_5",
-      "year": "2001",
-      "title": "Amnesiac",
-      "image": "https://assets.codepen.io/85648/radiohead_amnesiac.webp",
+      "id": "reign_of_the_empire",
+      "year": "19 BBY – 5 BBY",
+      "title": "Reign of the Empire",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/era5_67cf4464.png?region=0,0,1000,1000",
       "index": 4
     },
     {
-      "id": "section_6",
-      "year": "2003",
-      "title": "Hail to the Thief",
-      "image": "https://assets.codepen.io/85648/radiohead_hail-to-the-thief.webp",
+      "id": "age_of_rebellion",
+      "year": "5 BBY – 4 ABY",
+      "title": "Age of Rebellion",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/era6_abd16787.png?region=0,0,1000,1000",
       "index": 5
     },
     {
-      "id": "section_7",
-      "year": "2007",
-      "title": "In Rainbows",
-      "image": "https://assets.codepen.io/85648/radiohead_in-rainbows.webp",
+      "id": "the_new_republic",
+      "year": "5 ABY – 34 ABY",
+      "title": "The New Republic",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/era7_97f8dddf.png?region=0,0,1000,1000",
       "index": 6
     },
     {
-      "id": "section_8",
-      "year": "2011",
-      "title": "The King of Limbs",
-      "image": "https://assets.codepen.io/85648/radiohead_king-of-linbs.webp",
+      "id": "rise_of_the_first_order",
+      "year": "34 ABY – 35 ABY",
+      "title": "Rise of the First Order",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/era8_f83e131b_2508094e.png?region=0,0,1000,1000",
       "index": 7
     },
     {
-      "id": "section_9",
-      "year": "2016",
-      "title": "A Moon Shaped Pool",
-      "image": "https://assets.codepen.io/85648/radiohead_a-moon-shaped-pool.webp",
+      "id": "new_jedi_order",
+      "year": "50 ABY – unknown",
+      "title": "New Jedi Order",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/era9_off_99bd88a1.png?region=0,0,1000,1000",
       "index": 8
     }
   ]

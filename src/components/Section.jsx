@@ -1,9 +1,9 @@
-import React, { useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import gsap from 'gsap';
 import styles from '../styles/Timeline.module.scss';
 
-const Section = ({ id, image, index }) => {
+const Section = ({ id, image, year, index }) => {
   const { t } = useTranslation();
   const headingRef = useRef(null);
   const imageRef = useRef(null);
@@ -73,7 +73,7 @@ const Section = ({ id, image, index }) => {
     >
       <div className={styles.container}>
         <h2 className={styles.sectionHeading} ref={headingRef}>
-          <span>{t(`timeline.${id}.year`)}</span>
+          <span>{year}</span>
           <span>{t(`timeline.${id}.title`)}</span>
         </h2>
         <div

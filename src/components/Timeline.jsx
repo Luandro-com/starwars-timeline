@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Navigation from './Navigation';
 import Section from './Section';
 import LanguageSwitcher from './LanguageSwitcher';
