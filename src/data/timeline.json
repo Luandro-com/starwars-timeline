@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "id": "section_1",
+      "year": "1993",
+      "title": "Pablo Honey",
+      "image": "https://assets.codepen.io/85648/radiohead_pablo-honey.jpg",
+      "index": 0
+    },
+    {
+      "id": "section_2",
+      "year": "1995",
+      "title": "The Bends",
+      "image": "https://assets.codepen.io/85648/radiohead_the-bends.webp",
+      "index": 1
+    },
+    {
+      "id": "section_3",
+      "year": "1997",
+      "title": "OK Computer",
+      "image": "https://assets.codepen.io/85648/radiohead_ok-computer.webp",
+      "index": 2
+    },
+    {
+      "id": "section_4",
+      "year": "2000",
+      "title": "Kid A",
+      "image": "https://assets.codepen.io/85648/radiohead_kid-a.webp",
+      "index": 3
+    },
+    {
+      "id": "section_5",
+      "year": "2001",
+      "title": "Amnesiac",
+      "image": "https://assets.codepen.io/85648/radiohead_amnesiac.webp",
+      "index": 4
+    },
+    {
+      "id": "section_6",
+      "year": "2003",
+      "title": "Hail to the Thief",
+      "image": "https://assets.codepen.io/85648/radiohead_hail-to-the-thief.webp",
+      "index": 5
+    },
+    {
+      "id": "section_7",
+      "year": "2007",
+      "title": "In Rainbows",
+      "image": "https://assets.codepen.io/85648/radiohead_in-rainbows.webp",
+      "index": 6
+    },
+    {
+      "id": "section_8",
+      "year": "2011",
+      "title": "The King of Limbs",
+      "image": "https://assets.codepen.io/85648/radiohead_king-of-linbs.webp",
+      "index": 7
+    },
+    {
+      "id": "section_9",
+      "year": "2016",
+      "title": "A Moon Shaped Pool",
+      "image": "https://assets.codepen.io/85648/radiohead_a-moon-shaped-pool.webp",
+      "index": 8
+    }
+  ]
+}

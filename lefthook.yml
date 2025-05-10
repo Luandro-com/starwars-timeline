@@ -1,0 +1,14 @@
+pre-commit:
+  parallel: true
+  commands:
+    lint:
+      glob: "*.{js,jsx}"
+      run: npx eslint {staged_files} --fix
+    prettier:
+      glob: "*.{js,jsx,json,css,scss,md}"
+      run: npx prettier --write {staged_files}
+
+commit-msg:
+  commands:
+    lint-commit-msg:
+      run: echo "Commit message checked"

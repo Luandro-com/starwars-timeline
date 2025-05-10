@@ -1,0 +1,40 @@
+{
+  "timeline": {
+    "section_1": {
+      "year": "1993",
+      "title": "Pablo Honey"
+    },
+    "section_2": {
+      "year": "1995",
+      "title": "The Bends"
+    },
+    "section_3": {
+      "year": "1997",
+      "title": "OK Computer"
+    },
+    "section_4": {
+      "year": "2000",
+      "title": "Kid A"
+    },
+    "section_5": {
+      "year": "2001",
+      "title": "Amnesiac"
+    },
+    "section_6": {
+      "year": "2003",
+      "title": "Hail to the Thief"
+    },
+    "section_7": {
+      "year": "2007",
+      "title": "In Rainbows"
+    },
+    "section_8": {
+      "year": "2011",
+      "title": "El Rey de las Extremidades"
+    },
+    "section_9": {
+      "year": "2016",
+      "title": "Una Piscina con Forma de Luna"
+    }
+  }
+}
