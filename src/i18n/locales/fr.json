@@ -27,5 +27,32 @@
     "new_jedi_order": {
       "title": "Nouvel Ordre Jedi"
     }
+  },
+  "controls": {
+    "view": "Affichage",
+    "expanded": "Étendu",
+    "compact": "Compact",
+    "erasOnly": "Ères Seulement",
+    "collapse": "Réduire",
+    "expand": "Étendre",
+    "viewMedia": "Voir Médias"
+  },
+  "filters": {
+    "type": "Type",
+    "allTypes": "Tous les Types",
+    "era": "Ère",
+    "all": "Tous",
+    "date": "Date",
+    "allDates": "Toutes les Dates",
+    "confirmed": "Confirmée",
+    "estimated": "Estimée",
+    "search": "Rechercher...",
+    "sortBy": "Trier par",
+    "year": "Année",
+    "title": "Titre",
+    "type": "Type",
+    "releaseDate": "Date de Sortie",
+    "showing": "Affichage de {{count}} sur {{total}} éléments",
+    "noResults": "Aucun élément ne correspond à vos filtres. Essayez d'ajuster vos critères de recherche."
   }
 }
