@@ -9,7 +9,7 @@
       },
       "title": "Pre-Republic Era",
       "image": "https://lumiere-a.akamaihd.net/v1/images/era1_off_7f296355.png?region=0,0,1000,1000",
-      "index": -1,
+      "index": 2,
       "media": [
         {
           "id": "media_1",
@@ -48,7 +48,7 @@
       },
       "title": "Dawn of the Jedi",
       "image": "https://lumiere-a.akamaihd.net/v1/images/era1_off_7f296355.png?region=0,0,1000,1000",
-      "index": 0,
+      "index": 3,
       "media": [
         {
           "id": "media_3",
@@ -74,7 +74,7 @@
       },
       "title": "The Old Republic",
       "image": "https://lumiere-a.akamaihd.net/v1/images/era2_218980de.png?region=0,0,1000,1000",
-      "index": 1,
+      "index": 4,
       "media": [
         {
           "id": "media_4",
@@ -165,7 +165,7 @@
       },
       "title": "The High Republic",
       "image": "https://lumiere-a.akamaihd.net/v1/images/era3_bb90bcab.png?region=0,0,1000,1000",
-      "index": 2,
+      "index": 5,
       "media": [
         {
           "id": "media_10",
@@ -5014,7 +5014,7 @@
       },
       "title": "Fall of the Jedi",
       "image": "https://lumiere-a.akamaihd.net/v1/images/era4_9f138687.png?region=0,0,1000,1000",
-      "index": 3,
+      "index": 6,
       "media": [
         {
           "id": "media_382",
@@ -9746,7 +9746,7 @@
       },
       "title": "Reign of the Empire",
       "image": "https://lumiere-a.akamaihd.net/v1/images/era5_67cf4464.png?region=0,0,1000,1000",
-      "index": 4,
+      "index": 7,
       "media": [
         {
           "id": "media_682",
@@ -13581,7 +13581,7 @@
       },
       "title": "Age of Rebellion",
       "image": "https://lumiere-a.akamaihd.net/v1/images/era6_abd16787.png?region=0,0,1000,1000",
-      "index": 5,
+      "index": 8,
       "media": [
         {
           "id": "media_983",
@@ -17442,7 +17442,7 @@
       },
       "title": "The New Republic",
       "image": "https://lumiere-a.akamaihd.net/v1/images/era7_97f8dddf.png?region=0,0,1000,1000",
-      "index": 6,
+      "index": 9,
       "media": [
         {
           "id": "media_438",
@@ -30039,7 +30039,7 @@
       },
       "title": "Rise of the First Order",
       "image": "https://lumiere-a.akamaihd.net/v1/images/era8_f83e131b_2508094e.png?region=0,0,1000,1000",
-      "index": 7,
+      "index": 10,
       "media": [
         {
           "id": "media_2303",
@@ -34459,7 +34459,7 @@
       },
       "title": "New Jedi Order",
       "image": "https://lumiere-a.akamaihd.net/v1/images/era9_off_99bd88a1.png?region=0,0,1000,1000",
-      "index": 8,
+      "index": 11,
       "media": [
         {
           "id": "media_2642",
@@ -35164,18 +35164,6 @@
           }
         }
       ]
-    },
-    {
-      "id": "legacy_era",
-      "yearRange": {
-        "start": 100,
-        "end": 1000,
-        "era": "ABY"
-      },
-      "title": "Legacy Era",
-      "image": "https://lumiere-a.akamaihd.net/v1/images/era9_off_99bd88a1.png?region=0,0,1000,1000",
-      "index": 9,
-      "media": []
     }
   ]
 }

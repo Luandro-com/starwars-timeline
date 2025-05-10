@@ -19,7 +19,7 @@ const eras = [
     yearRange: { start: 100000, end: 25000, era: 'BBY' },
     title: 'Pre-Republic Era',
     image: 'https://lumiere-a.akamaihd.net/v1/images/era1_off_7f296355.png?region=0,0,1000,1000',
-    index: -1,
+    index: 0,
     media: [],
   },
   {
@@ -27,7 +27,7 @@ const eras = [
     yearRange: { start: 25000, end: 5000, era: 'BBY' },
     title: 'Dawn of the Jedi',
     image: 'https://lumiere-a.akamaihd.net/v1/images/era1_off_7f296355.png?region=0,0,1000,1000',
-    index: 0,
+    index: 1,
     media: [],
   },
   {
@@ -35,7 +35,7 @@ const eras = [
     yearRange: { start: 5000, end: 1000, era: 'BBY' },
     title: 'The Old Republic',
     image: 'https://lumiere-a.akamaihd.net/v1/images/era2_218980de.png?region=0,0,1000,1000',
-    index: 1,
+    index: 2,
     media: [],
   },
   {
@@ -43,7 +43,7 @@ const eras = [
     yearRange: { start: 1000, end: 100, era: 'BBY' },
     title: 'The High Republic',
     image: 'https://lumiere-a.akamaihd.net/v1/images/era3_bb90bcab.png?region=0,0,1000,1000',
-    index: 2,
+    index: 3,
     media: [],
   },
   {
@@ -51,7 +51,7 @@ const eras = [
     yearRange: { start: 100, end: 19, era: 'BBY' },
     title: 'Fall of the Jedi',
     image: 'https://lumiere-a.akamaihd.net/v1/images/era4_9f138687.png?region=0,0,1000,1000',
-    index: 3,
+    index: 4,
     media: [],
   },
   {
@@ -59,7 +59,7 @@ const eras = [
     yearRange: { start: 19, end: 5, era: 'BBY' },
     title: 'Reign of the Empire',
     image: 'https://lumiere-a.akamaihd.net/v1/images/era5_67cf4464.png?region=0,0,1000,1000',
-    index: 4,
+    index: 5,
     media: [],
   },
   {
@@ -67,7 +67,7 @@ const eras = [
     yearRange: { start: 5, end: 0, era: 'BBY' },
     title: 'Age of Rebellion',
     image: 'https://lumiere-a.akamaihd.net/v1/images/era6_abd16787.png?region=0,0,1000,1000',
-    index: 5,
+    index: 6,
     media: [],
   },
   {
@@ -75,7 +75,7 @@ const eras = [
     yearRange: { start: 0, end: 34, era: 'ABY' },
     title: 'The New Republic',
     image: 'https://lumiere-a.akamaihd.net/v1/images/era7_97f8dddf.png?region=0,0,1000,1000',
-    index: 6,
+    index: 7,
     media: [],
   },
   {
@@ -84,7 +84,7 @@ const eras = [
     title: 'Rise of the First Order',
     image:
       'https://lumiere-a.akamaihd.net/v1/images/era8_f83e131b_2508094e.png?region=0,0,1000,1000',
-    index: 7,
+    index: 8,
     media: [],
   },
   {
@@ -92,17 +92,9 @@ const eras = [
     yearRange: { start: 35, end: 100, era: 'ABY' },
     title: 'New Jedi Order',
     image: 'https://lumiere-a.akamaihd.net/v1/images/era9_off_99bd88a1.png?region=0,0,1000,1000',
-    index: 8,
-    media: [],
-  },
-  {
-    id: 'legacy_era',
-    yearRange: { start: 100, end: 1000, era: 'ABY' },
-    title: 'Legacy Era',
-    image: 'https://lumiere-a.akamaihd.net/v1/images/era9_off_99bd88a1.png?region=0,0,1000,1000',
     index: 9,
     media: [],
-  },
+  }
 ];
 
 // Function to parse year string to a numeric value

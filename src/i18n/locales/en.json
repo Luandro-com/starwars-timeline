@@ -1,58 +1,44 @@
 {
   "timeline": {
+    "pre_republic": {
+      "title": "Pre-Republic Era",
+      "year": "100.000 – 25.000 BBY"
+    },
     "dawn_of_the_jedi": {
-      "title": "Dawn of the Jedi"
+      "title": "Dawn of the Jedi",
+      "year": "25.000 – 5.000 BBY"
     },
     "the_old_republic": {
-      "title": "The Old Republic"
+      "title": "The Old Republic",
+      "year": "5.000 – 1.000 BBY"
     },
     "the_high_republic": {
-      "title": "The High Republic"
+      "title": "The High Republic",
+      "year": "1.000 – 100 BBY"
     },
     "fall_of_the_jedi": {
-      "title": "Fall of the Jedi"
+      "title": "Fall of the Jedi",
+      "year": "100 – 19 BBY"
     },
     "reign_of_the_empire": {
-      "title": "Reign of the Empire"
+      "title": "Reign of the Empire",
+      "year": "19 – 5 BBY"
     },
     "age_of_rebellion": {
-      "title": "Age of Rebellion"
+      "title": "Age of Rebellion",
+      "year": "5 – 0 BBY"
     },
     "the_new_republic": {
-      "title": "The New Republic"
+      "title": "The New Republic",
+      "year": "0 – 34 ABY"
     },
     "rise_of_the_first_order": {
-      "title": "Rise of the First Order"
+      "title": "Rise of the First Order",
+      "year": "34 – 35 ABY"
     },
     "new_jedi_order": {
-      "title": "New Jedi Order"
+      "title": "New Jedi Order",
+      "year": "35 – 100 ABY"
     }
-  },
-  "controls": {
-    "view": "View",
-    "expanded": "Expanded",
-    "compact": "Compact",
-    "erasOnly": "Eras Only",
-    "collapse": "Collapse",
-    "expand": "Expand",
-    "viewMedia": "View Media"
-  },
-  "filters": {
-    "type": "Type",
-    "allTypes": "All Types",
-    "era": "Era",
-    "all": "All",
-    "date": "Date",
-    "allDates": "All Dates",
-    "confirmed": "Confirmed",
-    "estimated": "Estimated",
-    "search": "Search...",
-    "sortBy": "Sort by",
-    "year": "Year",
-    "title": "Title",
-    "type": "Type",
-    "releaseDate": "Release Date",
-    "showing": "Showing {{count}} of {{total}} items",
-    "noResults": "No media items match your filters. Try adjusting your search criteria."
   }
 }

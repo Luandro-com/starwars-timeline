@@ -1,58 +1,44 @@
 {
   "timeline": {
+    "pre_republic": {
+      "title": "ère Pré-Républicaine",
+      "year": "100 000 – 25 000 AVJC"
+    },
     "dawn_of_the_jedi": {
-      "title": "Aube des Jedi"
+      "title": "Aube des Jedi",
+      "year": "25 000 – 5 000 AVJC"
     },
     "the_old_republic": {
-      "title": "L'Ancienne République"
+      "title": "La Vieille République",
+      "year": "5 000 – 1 000 AVJC"
     },
     "the_high_republic": {
-      "title": "La Haute République"
+      "title": "La Haute République",
+      "year": "1 000 – 100 AVJC"
     },
     "fall_of_the_jedi": {
-      "title": "Chute des Jedi"
+      "title": "Chute des Jedi",
+      "year": "100 – 19 AVJC"
     },
     "reign_of_the_empire": {
-      "title": "Règne de l'Empire"
+      "title": "Règne de l'Empire",
+      "year": "19 – 5 AVJC"
     },
     "age_of_rebellion": {
-      "title": "Ère de la Rébellion"
+      "title": "Ère de la Rébellion",
+      "year": "5 – 0 AVJC"
     },
     "the_new_republic": {
-      "title": "La Nouvelle République"
+      "title": "La Nouvelle République",
+      "year": "0 – 34 APJ"
     },
     "rise_of_the_first_order": {
-      "title": "Montée de la Première Ordre"
+      "title": "Montée de la Première Ordre",
+      "year": "34 – 35 APJ"
     },
     "new_jedi_order": {
-      "title": "Nouvel Ordre Jedi"
+      "title": "Nouvel Ordre Jedi",
+      "year": "35 – 100 APJ"
     }
-  },
-  "controls": {
-    "view": "Affichage",
-    "expanded": "Étendu",
-    "compact": "Compact",
-    "erasOnly": "Ères Seulement",
-    "collapse": "Réduire",
-    "expand": "Étendre",
-    "viewMedia": "Voir Médias"
-  },
-  "filters": {
-    "type": "Type",
-    "allTypes": "Tous les Types",
-    "era": "Ère",
-    "all": "Tous",
-    "date": "Date",
-    "allDates": "Toutes les Dates",
-    "confirmed": "Confirmée",
-    "estimated": "Estimée",
-    "search": "Rechercher...",
-    "sortBy": "Trier par",
-    "year": "Année",
-    "title": "Titre",
-    "type": "Type",
-    "releaseDate": "Date de Sortie",
-    "showing": "Affichage de {{count}} sur {{total}} éléments",
-    "noResults": "Aucun élément ne correspond à vos filtres. Essayez d'ajuster vos critères de recherche."
   }
 }

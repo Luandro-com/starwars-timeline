@@ -7,7 +7,6 @@ import MediaList from './MediaList';
 import LanguageSwitcher from './LanguageSwitcher';
 import ViewControls, { ViewMode } from './ViewControls';
 import fullTimelineData from '../data/full_timeline.json';
-import timelineErasData from '../data/timeline_eras.json';
 import { Era, TimelineData } from '../types';
 import styles from '../styles/Timeline.module.scss';
 
@@ -22,7 +21,7 @@ const Timeline = () => {
   // Filter out eras with negative indices (pre-republic) and indices > 8 (legacy era)
   // to match the timeline_eras.json structure
   useEffect(() => {
-    const filteredEras = fullTimelineData.eras.filter(era => era.index >= 0 && era.index <= 8);
+    const filteredEras = fullTimelineData.eras;
     setTimelineData({ eras: filteredEras });
   }, []);
 
@@ -62,7 +61,7 @@ const Timeline = () => {
 
       {!showDetailedMedia && (
         <>
-          <Navigation timelineData={timelineErasData.items} />
+          <Navigation timelineData={fullTimelineData.eras} />
           <main ref={mainRef}>
             {viewMode === 'eras-only' && (
               timelineData.eras.map(era => (

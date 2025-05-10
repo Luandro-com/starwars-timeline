@@ -1,58 +1,44 @@
 {
   "timeline": {
+    "pre_republic": {
+      "title": "Era Pre-Republica",
+      "year": "100.000 – 25.000 BP"
+    },
     "dawn_of_the_jedi": {
-      "title": "Amanecer de los Jedi"
+      "title": "Amanecer de los Jedi",
+      "year": "25.000 – 5.000 BP"
     },
     "the_old_republic": {
-      "title": "La Vieja República"
+      "title": "La Antigua República",
+      "year": "5.000 – 1.000 BP"
     },
     "the_high_republic": {
-      "title": "La Alta República"
+      "title": "La Alta República",
+      "year": "1.000 – 100 BP"
     },
     "fall_of_the_jedi": {
-      "title": "Caída de los Jedi"
+      "title": "Caída de los Jedi",
+      "year": "100 – 19 AB"
     },
     "reign_of_the_empire": {
-      "title": "El Reinado del Imperio"
+      "title": "Reinado del Imperio",
+      "year": "19 – 5 AB"
     },
     "age_of_rebellion": {
-      "title": "Edad de la Rebelión"
+      "title": "Era de la Rebelión",
+      "year": "5 – 0 AB"
     },
     "the_new_republic": {
-      "title": "La Nueva República"
+      "title": "La Nueva República",
+      "year": "0 – 34 ABY"
     },
     "rise_of_the_first_order": {
-      "title": "El Ascenso de la Primera Orden"
+      "title": "Ascenso de la Primera Orden",
+      "year": "34 – 35 ABY"
     },
     "new_jedi_order": {
-      "title": "Nuevo Orden Jedi"
+      "title": "Nueva Orden Jedi",
+      "year": "35 – 100 ABY"
     }
-  },
-  "controls": {
-    "view": "Vista",
-    "expanded": "Expandida",
-    "compact": "Compacta",
-    "erasOnly": "Solo Eras",
-    "collapse": "Colapsar",
-    "expand": "Expandir",
-    "viewMedia": "Ver Medios"
-  },
-  "filters": {
-    "type": "Tipo",
-    "allTypes": "Todos los Tipos",
-    "era": "Era",
-    "all": "Todos",
-    "date": "Fecha",
-    "allDates": "Todas las Fechas",
-    "confirmed": "Confirmada",
-    "estimated": "Estimada",
-    "search": "Buscar...",
-    "sortBy": "Ordenar por",
-    "year": "Año",
-    "title": "Título",
-    "type": "Tipo",
-    "releaseDate": "Fecha de Lanzamiento",
-    "showing": "Mostrando {{count}} de {{total}} elementos",
-    "noResults": "Ningún elemento coincide con tus filtros. Intenta ajustar tus criterios de búsqueda."
   }
 }
