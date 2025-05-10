@@ -391,7 +391,8 @@ img {
     font-size: 0.9rem;
   }
 
-  select, input {
+  select,
+  input {
     background-color: var(--mainBg);
     color: var(--activeColor);
     border: 1px solid var(--cardBorder);

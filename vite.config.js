@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/starwars-timeline/', // Replace with your repository name
   resolve: {
-    extensions: ['.js', '.jsx', '.ts', '.tsx', '.json']
-  }
+    extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
+  },
 });
